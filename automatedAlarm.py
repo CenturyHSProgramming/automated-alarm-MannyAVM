@@ -1,7 +1,20 @@
 # automatedAlarm.py
-# by _______
-
+# by Manuel
+import math
 # Write function defintion: automatedAlarm()
+def automatedAlarm(day, noSchool):
+    if day in('Saturday','Sunday'):
+            return '9:00'
+    elif noSchool == True:
+        if day == 'Monday':
+            return '9:30'
+        elif day in('Wednesday', 'Tuesday','Thursday','Friday'):
+            return '8:30'
+    elif noSchool == False:
+        if day in('Monday', 'Tuesday','Thursday','Friday'):
+            return '7:00'
+        elif day =='Wednesday':
+            return '7:30'
 
 # Make sure it returns a value
 
