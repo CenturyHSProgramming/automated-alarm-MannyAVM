@@ -1,5 +1,5 @@
 # automatedAlarm.py
-# by Manuel
+# by Manuel R
 import math
 # Write function defintion: automatedAlarm()
 def automatedAlarm(day, noSchool):
